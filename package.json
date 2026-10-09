@@ -1,0 +1,10 @@
+{
+  "name": "josphat-miano-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive portfolio website for Josphat Miano.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "rm -rf dist && mkdir -p dist && cp index.html styles.css script.js dist/ && cp -R public dist/public && cp -R assets dist/assets && cp public/manus-routes.json dist/manus-routes.json"
+  }
+}
